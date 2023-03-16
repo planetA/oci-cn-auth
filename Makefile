@@ -27,7 +27,7 @@ FPM_OPTS=-s dir -f -n oci-cn-auth \
 EL7_DEPS=-d "python36-requests" -d "python36-pyOpenSSL" -d "python36-jinja2" -d "python36-psutil" -d "python36-cryptography" -d "wpa_supplicant" 
 EL8_DEPS=-d "python3-requests" -d "python3-pyOpenSSL" -d "python3-jinja2" -d "python3-psutil" -d "python3-cryptography" -d "wpa_supplicant" 
 SLES_DEPS=-d "python3-requests" -d "python3-pyOpenSSL" -d "python3-Jinja2" -d "python3-psutil" -d "python3-cryptography" -d "wpa_supplicant" 
-DEB_DEPS=-d "python3-psutil" -d "python3-openssl" -d "python3-cryptography" -d "python3-requests" -d "python3-jinja2" -d "wpasupplicant" -d "python" -d "mlnx-ofed-kernel-utils"
+DEB_DEPS=-d "python3-psutil" -d "python3-openssl" -d "python3-cryptography" -d "python3-requests" -d "python3-jinja2" -d "wpasupplicant" -d "python3" -d "mlnx-ofed-kernel-utils"
 
 
 FILES=--prefix / \
