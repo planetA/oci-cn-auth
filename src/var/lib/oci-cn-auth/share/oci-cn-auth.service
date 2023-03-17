@@ -8,3 +8,4 @@ Description=OCI HPC Tools: renew WPA certificates
 [Service]
 Type=oneshot
 ExecStart=/var/lib/oci-cn-auth/oci-cn-auth
+Requires=network-online.target
